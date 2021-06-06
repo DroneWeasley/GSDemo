@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-analytics-impl:10.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea0198b87d3de8feaa3c97e9a32b469d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea0198b87d3de8feaa3c97e9a32b469d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7156d9a5416eae9d7d0b8a31d1e88252/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7156d9a5416eae9d7d0b8a31d1e88252/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7156d9a5416eae9d7d0b8a31d1e88252/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
