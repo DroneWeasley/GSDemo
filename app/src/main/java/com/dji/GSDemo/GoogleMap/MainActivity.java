@@ -1,3 +1,5 @@
+package com.dji.GSDemo.GoogleMap;
+
 import android.Manifest;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -274,7 +276,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                     public void onClick(DialogInterface dialog, int id) {
 
                         String altitudeString = wpAltitude_TV.getText().toString();
-                        altitude = Integer.parseInt(nulltoIntegerDefalt(altitudeString));
+                        altitude = Integer.parseInt(nulltoIntegerDefault(altitudeString));
                         Log.e(TAG,"altitude "+altitude);
                         Log.e(TAG,"speed "+mSpeed);
                         Log.e(TAG, "mFinishedAction "+mFinishedAction);
@@ -393,7 +395,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        ArraySet<Object> aMap;
+                        ArraySet<Object> aMap = new ArraySet<Object>();
                         aMap.clear();
                     }
 
